@@ -4,5 +4,5 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  var elm = document.se
+  var elm = document.getElementById('target').;
 }
