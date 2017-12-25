@@ -9,5 +9,6 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
+  var num = parseInt(n);
   
 }
