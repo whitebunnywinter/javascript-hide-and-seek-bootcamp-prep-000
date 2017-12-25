@@ -22,5 +22,5 @@ function deepestChild() {
   // for (var i = 0; ) {
     
   // }
-  return elmList;
+  return elmList.length;
 }
