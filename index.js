@@ -18,7 +18,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  var elmList = document.querySelector('div#grand-node').querySelectorAll();
+  var elmList = document.querySelector('div#grand-node').querySelectorAll('*');
   // for (var i = 0; ) {
     
   // }
