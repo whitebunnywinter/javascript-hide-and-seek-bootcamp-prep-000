@@ -19,7 +19,7 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   var elmList = document.querySelectorAll('div#grand-node');
-  for (var i = ) {
+  for (var i = 0; ) {
     
   }
   return elmList;
