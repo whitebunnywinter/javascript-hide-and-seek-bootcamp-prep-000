@@ -24,7 +24,7 @@ function deepestChild() {
     if (!elm.hasChildNodes()) {
       return elm;
     } else {
-      elm = document.querySelector('*');
+      elm = elm.querySelector('*');
     }
   }
   return elm;
