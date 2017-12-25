@@ -21,9 +21,11 @@ function deepestChild() {
   var elmNum = document.querySelector('div#grand-node').querySelectorAll('*').length;
   var elm = document.querySelector('div#grand-node');
   for (var i = 0; i < elmNum; i++) {
-    if (elm.) {
-      
+    if (!elm.hasChildNodes()) {
+      return elm;
+    } else {
+      elm = elm.querySelector('*');
     }
   }
-  return elmNum;
+  return elm;
 }
