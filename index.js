@@ -10,5 +10,5 @@ function nestedTarget() {
 
 function increaseRankBy(n) {
   var num = parseInt(n);
-  
+  var elmList = document.querySelectorAll('.ranked-list');
 }
