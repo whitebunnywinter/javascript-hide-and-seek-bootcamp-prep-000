@@ -3,3 +3,6 @@ function getFirstSelector(selector) {
   return elm;
 }
 
+function nestedTarget() {
+  var elm = document.se
+}
